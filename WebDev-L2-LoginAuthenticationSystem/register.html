@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="auth-card">
+    <h1>Create account</h1>
+    <p class="muted">A small demo authentication project.</p>
+    <form id="registerForm">
+      <label>Username</label>
+      <input id="registerUsername" type="text" required placeholder="Choose a username">
+      <label>Email</label>
+      <input id="registerEmail" type="email" required placeholder="you@example.com">
+      <label>Password</label>
+      <input id="registerPassword" type="password" required placeholder="At least 8 characters and 1 number">
+      <p id="registerMessage" class="message"></p>
+      <button type="submit">Register</button>
+    </form>
+    <p class="switch">Already have an account? <a href="index.html">Login</a></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
